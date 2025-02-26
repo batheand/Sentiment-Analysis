@@ -13,4 +13,4 @@ Note: the raw output of the model is between 0 (negative) and 1 (positive) and w
 
 After testing on it myself, I developed the Positive-Negative index (the raw output of the model*100) which often is able to give even more information. The texts have spectrums of sentiments, two texts can be negative and one can be drastically more negative (e.g.: I did't enjoy the drink vs I hated everything about this meal). 
 
-Therefore, for future development, maybe we can lean more into improving the index by adding the neutral data as well with with 0.5 weighting, so that it captures the qualities of neutrality as well. 
+Therefore, for future development, maybe we can lean more into improving the index by adding the neutral data as well with with 0.5 weighting, so that our model captures the qualities of neutrality as well. 
